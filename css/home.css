@@ -1917,12 +1917,29 @@ background-color:#ffffff ;
         cursor: pointer;
             }
 
-            .start-shop-sec .shape:hover  i {
+            .start-shop-sec .first:hover  i {
                 opacity: 1;
                 cursor: pointer;
-                /* color: #7a4ff4; */
+                color: #7a4ff4;
                 transform: translateY(-15px);
                     }
+                    .start-shop-sec .second:hover  i {
+                        opacity: 1;
+                        cursor: pointer;
+                        color: #7a4ff4;
+                        transform: translateY(-15px);
+                            }
+                            .start-shop-sec .third:hover  i {
+                                opacity: 1;
+                                cursor: pointer;
+                                color: #7a4ff4;
+                                transform: translateY(-15px);
+                                    }
+                            .start-shop-sec .ov .shape{
+                                display: flex;
+                                flex-wrap: wrap;
+                                gap: 10px;
+                            }
           /*end shop*/
 
 
